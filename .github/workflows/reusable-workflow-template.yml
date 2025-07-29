@@ -3,7 +3,7 @@ name: 04-1. Call Reusable Workflow Templates
 on: 
   push:
      branches: [main]
-  [workflow_dispatch]
+  workflow_dispatch:
 
 jobs:
   call_greet_everyone_workflow_job:
